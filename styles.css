@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.post{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    background: #fff;
+}
+.post .post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .post-header .info{
+    display:flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.post .post-header .perfil{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+
+.post-image img{
+    position: relative;
+    width: 360px;
+    height: 200px;
+}
+
+.foto{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-header h2{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1rem;
+    
+}
+
+.post-header .info .icono-puntos{
+    position: relative;
+    margin-left: 190px;
+    font-size: 20px;
+}
+
+.post-body{
+    font-size: 10px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.post-body .post-icons{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.post-body .post-icons .corazon{
+    padding: 2px;
+    position: relative;
+
+}
+
+.post-body .post-icons .comentario{
+    padding: 2px;
+    position: relative;
+
+}
+
+.post-body .post-icons .enviar{
+    padding: 2px;
+    position: relative;
+
+}
+.post-body .post-icons .guardar{
+    position: relative;
+    margin-left: 260px;
+}
